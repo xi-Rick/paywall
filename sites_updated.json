@@ -1,0 +1,52 @@
+{
+  "Australia News Corp": {
+    "domain": "###_au_news_corp",
+    "group": [
+      "adelaidenow.com.au",
+      "cairnspost.com.au",
+      "codesports.com.au",
+      "couriermail.com.au",
+      "dailytelegraph.com.au",
+      "geelongadvertiser.com.au",
+      "goldcoastbulletin.com.au",
+      "heraldsun.com.au",
+      "ntnews.com.au",
+      "theaustralian.com.au",
+      "thechronicle.com.au",
+      "themercury.com.au",
+      "townsvillebulletin.com.au",
+      "weeklytimesnow.com.au"
+    ],
+    "allow_cookies": 1,
+    "block_regex": "(\\.com\\.au\\/remote\\/identity\\/rampart\\/latest\\/rampart\\.js|cdn\\.ampproject\\.org\\/v\\d\\/amp-(access|(sticky-)?ad)-.+\\.js)"
+  },
+  "La Tercera": {
+    "domain": "latercera.com",
+    "allow_cookies": 1,
+    "block_regex": "(\\.latercera\\.com\\/arc\\/subs\\/p\\.min\\.js|cdn\\.cxense\\.com\\/)"
+  },
+  "MIT Technology Review": {
+    "domain": "technologyreview.com",
+    "allow_cookies": 1,
+    "block_regex": "(\\.tinypass\\.com\\/|cdn\\.ampproject\\.org\\/v\\d\\/amp-(access|ad)-.+\\.mjs)"
+  },
+  "The Seattle Times": {
+    "domain": "seattletimes.com",
+    "allow_cookies": 1,
+    "block_regex": "(\\.seattletimes\\.com\\/wp-content\\/.+\\/st-(advertising|blocking)-bundle\\.js|cdn\\.ampproject\\.org\\/v\\d\\/amp-(access|ad)-.+\\.js)"
+  },
+  "The Telegraph": {
+    "domain": "telegraph.co.uk",
+    "allow_cookies": 1,
+    "block_regex": "(\\.tinypass\\.com\\/|\\.telegraph\\.co\\.uk\\/martech\\/js\\/|cdn\\.ampproject\\.org\\/v\\d\\/amp-(access|(sticky-)?ad)-.+\\.js)"
+  },
+  "The Times Literary Supplement": {
+    "domain": "the-tls.co.uk",
+    "referer": "google"
+  },
+  "The Washington Post": {
+    "domain": "washingtonpost.com",
+    "allow_cookies": 1,
+    "block_regex": "\\.washingtonpost\\.com\\/tetro\\/evaluate"
+  }
+}
